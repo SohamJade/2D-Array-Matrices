@@ -6,9 +6,6 @@ int main()
     int i,j;
     int arr[2][3];
 
-    // cout<<"Enter value of a and b: ";
-    // cin>>a>>b;
-
     cout<<"Enter 6 numbers: ";
     for(i=0;i<2;i++)
     {
