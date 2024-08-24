@@ -15,7 +15,7 @@ int main()
     int sum[rows][columns];
 
     //initializing 1st array
-    cout<<"Enter 4 numbers: ";
+    cout<<"Enter numbers: ";
     for(i=0;i<rows;i++)
     {
         for(j=0;j<columns;j++)
@@ -36,7 +36,7 @@ int main()
     }
     
     //initializing 2nd array
-    cout<<"Enter 4 numbers: ";
+    cout<<"Enter numbers: ";
     for(i=0;i<rows;i++)
     {
         for(j=0;j<columns;j++)
@@ -68,3 +68,21 @@ int main()
         cout<<endl;
     }
 }
+/*
+Enter number of rows: 2
+Enter number of columns: 2
+
+Enter numbers: 1 2 3 4
+Array 1 = 
+1 2 
+3 4 
+
+Enter numbers: 1 2 3 4
+Array 2 = 
+1 2 
+3 4 
+
+Sum of arrays = 
+2 4 
+6 8 
+*/
