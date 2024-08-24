@@ -26,3 +26,9 @@ int main()
         cout<<endl;
     }
 }
+
+/*
+Enter 6 numbers: 4 3 6 7 2 1
+4 3 6 
+7 2 1 
+*/
